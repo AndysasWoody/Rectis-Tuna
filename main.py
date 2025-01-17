@@ -189,8 +189,8 @@ def long_journey():
         window.fill((2, 1, 37))
         exit_button.draw()
         player.draw()
-        draw_text('Bravo, the end', text_font, text_inter_col, 1180 / 2 + 200, (620 / 2) + 200)
-        draw_text('Ye may leave!', text_font, text_inter_col, (WIDTH / 3), HEIGHT/3)
+        draw_text('Bravo, the end', text_font, text_speech_col, 1180 / 2 + 200, (620 / 2) + 200)
+        draw_text('Ye may leave!', text_font, text_speech_col, (WIDTH / 3), HEIGHT/3)
         pygame.display.update()
 
 
