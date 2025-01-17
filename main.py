@@ -1,5 +1,4 @@
 import sys
-
 import pygame
 from random import randint
 from classes import *
